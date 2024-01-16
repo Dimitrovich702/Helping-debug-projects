@@ -123,8 +123,16 @@ int main(int argc, char *argv[])
 
     return 0;
 }
-// nano komputp.c
-// does it matters if your code is faster if its calculating wrong things ? would it matter how fast it is maybe it can execute in no time but what if it gives bad outputs or very horrible ones?
-// gcc -o komputp komputp.c -g -O3 -Wall -fopenmp -lm 
-// ./komputp
-// 16384 particles: sfx=5.302674e-03 sfy=5.004778e-02 sfz=-3.048625e-0416384 particles: minfx=678.017889 maxfx=-695.39115916384 particles: minfy=818.966179 maxfy=-826.03497816384 particles: minfz=865.729531 maxfz=-796.521716Elapsed time=6.730759 
+
+// nano potx.c
+// gcc -o potx potx.c -g -O3 -Wall -fopenmp -lm 
+// ./potx
+// 16384 particles: sfx=2.201972e-11 sfy=2.870770e-11 sfz=5.353940e-12
+// 16384 particles: minfx=339.008944 maxfx=-347.695580
+// 16384 particles: minfy=409.483089 maxfy=-413.017489
+// 16384 particles: minfz=432.864766 maxfz=-398.260858
+// Elapsed time=6.518719
+
+// very important to have proper results in any code 
+
+
