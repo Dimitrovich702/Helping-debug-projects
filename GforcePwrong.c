@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <sys/time.h>
 #include <omp.h>
-
+// does not matters how fast your code is if its giving wrong outputs 
 #define GRAV_CONST 6.67408e-11
 
 typedef struct Particle_s
